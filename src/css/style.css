@@ -219,7 +219,7 @@ h1.name, .stack span {
 
 section:not(:first-child) {
     padding-top: 5rem;
-    margin-top: 5rem;
+    margin-top: 4rem;
 }
 
 section#preview .grid {
@@ -295,8 +295,8 @@ section#preview .grid {
 }
 
 .experience .item .item-info {
-     padding: 0 2rem 1rem 0;
- }
+    padding: 0 2rem 1rem 0;
+}
 
 .item-info h6 {
     word-break: keep-all;
@@ -467,6 +467,19 @@ section#contacts .contacts-wrapper {
         display: none;
     }
 
+    .main-info2 {
+        height: 90vh;
+    }
+
+    .mouse {
+        bottom: unset;
+        top: 80%;
+    }
+
+    .preloader {
+        padding-bottom: 10vh;
+    }
+
     .avatar {
         border-radius: 50%;
     }
@@ -578,8 +591,8 @@ section#contacts .contacts-wrapper {
     }
 
     section:not(:first-child) {
-        padding-top: 4rem !important;
-        margin-top: 4rem !important;
+        padding-top: 5rem !important;
+        margin-top: 2.5rem !important;
     }
 
     section#preview .grid {
