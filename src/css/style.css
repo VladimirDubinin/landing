@@ -275,8 +275,8 @@ section#preview .grid {
     gap: 1rem;
 }
 
-.experience {
-    margin-top: 3rem;
+.experience, .dop-info {
+    margin-top: 5rem;
 }
 
 .experience .stage {
@@ -317,7 +317,6 @@ section#preview .grid {
 }
 
 .dop-info {
-    margin-top: 3rem;
     display: grid;
     gap: 2rem;
     grid-template-columns: repeat(2, 1fr);
