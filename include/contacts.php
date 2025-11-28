@@ -10,7 +10,7 @@
                 <span>E-mail</span>
             </div>
             <div class="body">
-                <a href="mailto:dubinin.98@yandex.ru">dubinin.98@yandex.ru</a>
+                <a href="mailto:ro100v4anin@yandex.ru">ro100v4anin@yandex.ru</a>
             </div>
         </div>
 
