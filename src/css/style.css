@@ -219,6 +219,7 @@ h1.name, .stack span {
 
 section:not(:first-child) {
     padding-top: 5rem;
+    margin-top: 5rem;
 }
 
 section#preview .grid {
@@ -579,6 +580,7 @@ section#contacts .contacts-wrapper {
 
     section:not(:first-child) {
         padding-top: 4rem !important;
+        margin-top: 4rem !important;
     }
 
     section#preview .grid {
