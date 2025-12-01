@@ -70,11 +70,13 @@
     </div>
 </footer>
 
+<? if (!isset($_COOKIE['preloader'])) { ?>
 <div class="preloader hidden">
     <div class="stack" style="--stacks: 3;">
         <span style="--index: 0;">Владимир Дубинин</span>
     </div>
 </div>
+<? } ?>
 
 <script src="/src/js/jquery-3.7.1.min.js"></script>
 <script src="/src/js/bootstrap.bundle.js"></script>

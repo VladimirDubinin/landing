@@ -23,9 +23,19 @@ $(document).ready(function () {
         }
     });
 
-    $('.preloader').on('click', function () {
-        $('.preloader').remove();
-    })
+    const preloader = $('.preloader');
+    if (preloader.length > 0) {
+        const url = '/ajax/cookies.php';
+        $.ajax({
+            method: 'POST',
+            url: url
+        })
+
+        preloader.on('click', () => {
+            preloader.remove();
+        })
+    }
+
 
     setTimeout(function () {
         $('.preloader').remove();
