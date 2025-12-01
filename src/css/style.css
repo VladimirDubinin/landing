@@ -455,6 +455,14 @@ section#contacts .contacts-wrapper {
 }
 
 @media (max-width: 992px) {
+    body {
+        font-size: 1rem;
+    }
+
+    h6 {
+        font-size: 1.5rem;
+    }
+
     section#preview .grid {
         grid-template-columns: 1fr;
         grid-template-rows: auto auto;
@@ -587,7 +595,23 @@ section#contacts .contacts-wrapper {
 
 @media (max-width: 576px) {
     body {
-        font-size: 1rem;
+        font-size: .875rem;
+    }
+
+    h2, h3, h4, h5, .text-mobile {
+        text-align: center;
+    }
+
+    .ul-mobile {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 !important;
+    }
+
+    h6, .contact .header span {
+        font-size: 1.25rem;
     }
 
     section:not(:first-child) {
@@ -604,6 +628,15 @@ section#contacts .contacts-wrapper {
         grid-template-columns: auto;
         gap: 1rem;
     }
+
+    .contact .header {
+        justify-content: center;
+    }
+
+    .contact .body {
+        text-align: center;
+    }
+
 
     h1.name, .stack span {
         font-size: 2rem;

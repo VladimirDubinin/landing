@@ -48,7 +48,7 @@ $(document).ready(function () {
         direction: 'horizontal',
         autoHeight: true,
         allowTouchMove: true,
-        shortSwipes: false,
+        //shortSwipes: false,
         followFinger: false,
         navigation: {
             nextEl: '.portfolio-slider .swiper-button-next',

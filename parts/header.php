@@ -18,7 +18,7 @@
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 </head>
 <body>
-<header class="py-3">
+<header class="py-sm-3 py-2">
     <div class="container d-flex justify-content-center">
         <div class="burger">
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px"

@@ -3,24 +3,24 @@
         <h3>Обо мне</h3>
         <div class="bio-wrapper">
             <div class="description">
-                <p>
+                <p class="text-mobile">
                     Привет, я Fullstack-разработчик из Ростова-на-Дону с 4-х летним опытом
                     коммерческой разработки веб-приложений на PHP и JS.
                 </p>
-                <p>
+                <p class="text-mobile">
                     Мой основной стек - Laravel для построения серверной части
                     и Vue.js для разработки пользовательских интерфейсов.
                 </p>
-                <p>
+                <p class="text-mobile">
                     Имею хорошее понимание принципов ООП и структур данных, опыт проектирования и разработки
                     REST API, навыки работы с GitHub и Docker.
                 </p>
-                <p class="m-0">
+                <p class="text-mobile m-0">
                     Активно расширяю свою технологическую базу, изучая новые фреймворки и инструменты,
                     такие как Symfony.
                 </p>
             </div>
-            <div class="short">
+            <div class="short text-mobile">
                 <div><span class="marker">Имя:</span> Владимир Дубинин</div>
                 <div><span class="marker">Специальность:</span> Fullstack</div>
                 <div><span class="marker">Основной стек:</span> Laravel & Vue.js</div>
@@ -69,8 +69,8 @@
     <div class="dop-info">
         <div class="hard-skills">
             <h5>Hard Skills</h5>
-            <p>Основные компетенции:</p>
-            <ul class="m-0">
+            <p class="text-mobile">Основные компетенции:</p>
+            <ul class="ul-mobile m-0">
                 <li>
                     <span class="icon">
                         <svg class="icon-24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
@@ -134,8 +134,8 @@
         </div>
         <div class="soft-skills">
             <h5>Soft Skills</h5>
-            <p>Ключевые Soft Skills, характеризующие мой подход к работе:</p>
-            <ul class="m-0">
+            <p class="text-mobile">Ключевые Soft Skills, характеризующие мой подход к работе:</p>
+            <ul class="ul-mobile m-0">
                 <li><b>Ответственность</b></li>
                 <li><b>Обучаемость</b></li>
                 <li><b>Стрессоустойчивость</b></li>
