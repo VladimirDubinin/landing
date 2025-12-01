@@ -615,8 +615,12 @@ section#contacts .contacts-wrapper {
     }
 
     section:not(:first-child) {
-        padding-top: 5rem !important;
-        margin-top: 2.5rem !important;
+        padding-top: 4rem !important;
+        margin-top: 3rem !important;
+    }
+
+    .experience, .dop-info {
+        margin-top: 4rem;
     }
 
     section#preview .grid {
