@@ -79,6 +79,7 @@
 <? } ?>
 
 <script src="/src/js/jquery-3.7.1.min.js"></script>
+<script src="/src/js/jquery.fancybox.min.js"></script>
 <script src="/src/js/bootstrap.bundle.js"></script>
 <script src="/src/js/swiper-bundle.min.js"></script>
 <script src="/src/js/script.js?t=<?= time(); ?>"></script>

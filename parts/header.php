@@ -13,6 +13,7 @@
           rel="stylesheet">
     <link rel="stylesheet" href="/src/css/bootstrap.min.css">
     <link rel="stylesheet" href="/src/css/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="/src/css/jquery.fancybox.min.css"/>
     <link rel="stylesheet" href="/src/css/fonts.css?t=<?= time(); ?>">
     <link rel="stylesheet" href="/src/css/style.css?t=<?= time(); ?>">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">

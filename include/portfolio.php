@@ -20,13 +20,19 @@
                         <div class="project-slider swiper">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <img class="project-img" src="/src/images/ac/2.jpg" alt="">
+                                    <a href="/src/images/ac/2.jpg" data-fancybox="gallery-ac">
+                                        <img class="project-img" src="/src/images/ac/2.jpg" alt="">
+                                    </a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <img class="project-img" src="/src/images/ac/3.jpg" alt="">
+                                    <a href="/src/images/ac/3.jpg" data-fancybox="gallery-ac">
+                                        <img class="project-img" src="/src/images/ac/3.jpg" alt="">
+                                    </a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <img class="project-img" src="/src/images/ac/4.jpg" alt="">
+                                    <a href="/src/images/ac/4.jpg" data-fancybox="gallery-ac">
+                                        <img class="project-img" src="/src/images/ac/4.jpg" alt="">
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -56,13 +62,19 @@
                         <div class="project-slider swiper">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <img class="project-img" src="/src/images/federation/1.jpg" alt="">
+                                    <a href="/src/images/federation/1.jpg" data-fancybox="gallery-federation">
+                                        <img class="project-img" src="/src/images/federation/1.jpg" alt="">
+                                    </a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <img class="project-img" src="/src/images/federation/2.jpg" alt="">
+                                    <a href="/src/images/federation/2.jpg" data-fancybox="gallery-federation">
+                                        <img class="project-img" src="/src/images/federation/2.jpg" alt="">
+                                    </a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <img class="project-img" src="/src/images/federation/3.jpg" alt="">
+                                    <a href="/src/images/federation/3.jpg" data-fancybox="gallery-federation">
+                                        <img class="project-img" src="/src/images/federation/3.jpg" alt="">
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -87,13 +99,19 @@
                         <div class="project-slider swiper">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <img class="project-img" src="/src/images/lbtd/1.jpg" alt="">
+                                    <a href="/src/images/lbtd/1.jpg" data-fancybox="gallery-lbtd">
+                                        <img class="project-img" src="/src/images/lbtd/1.jpg" alt="">
+                                    </a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <img class="project-img" src="/src/images/lbtd/2.jpg" alt="">
+                                    <a href="/src/images/lbtd/2.jpg" data-fancybox="gallery-lbtd">
+                                        <img class="project-img" src="/src/images/lbtd/2.jpg" alt="">
+                                    </a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <img class="project-img" src="/src/images/lbtd/3.jpg" alt="">
+                                    <a href="/src/images/lbtd/3.jpg" data-fancybox="gallery-lbtd">
+                                        <img class="project-img" src="/src/images/lbtd/3.jpg" alt="">
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -120,13 +138,19 @@
                         <div class="project-slider swiper">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <img class="project-img" src="/src/images/sudrf/1.jpg" alt="">
+                                    <a href="/src/images/sudrf/1.jpg" data-fancybox="gallery-sudrf">
+                                        <img class="project-img" src="/src/images/sudrf/1.jpg" alt="">
+                                    </a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <img class="project-img" src="/src/images/sudrf/3.jpg" alt="">
+                                    <a href="/src/images/sudrf/3.jpg" data-fancybox="gallery-sudrf">
+                                        <img class="project-img" src="/src/images/sudrf/3.jpg" alt="">
+                                    </a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <img class="project-img" src="/src/images/sudrf/4.jpg" alt="">
+                                    <a href="/src/images/sudrf/4.jpg" data-fancybox="gallery-sudrf">
+                                        <img class="project-img" src="/src/images/sudrf/4.jpg" alt="">
+                                    </a>
                                 </div>
                             </div>
                         </div>

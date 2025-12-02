@@ -25,6 +25,7 @@ a {
     text-decoration: none;
     transition: .3s;
     color: white !important;
+    outline: none;
 }
 
 a:hover {

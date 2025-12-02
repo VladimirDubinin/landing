@@ -73,6 +73,8 @@ $(document).ready(function () {
             prevEl: '.portfolio-slider .swiper-button-prev',
         }
     });
+
+
 })
 
 function checkHeader(previewHeight, scroll) {
