@@ -15,7 +15,8 @@ $(document).ready(function () {
         mouse.hide();
     }
 
-    checkHeader(previewHeight, scroll)
+    checkHeader(previewHeight, scroll);
+    checkFooter(scroll);
 
     $(window).scroll(() => {
         const scroll = $(window).scrollTop();
@@ -25,7 +26,8 @@ $(document).ready(function () {
             mouse.fadeIn("slow");
         }
 
-        checkHeader(previewHeight, scroll)
+        checkHeader(previewHeight, scroll);
+        checkFooter(scroll);
     });
 
     const preloader = $('.preloader');
@@ -82,5 +84,13 @@ function checkHeader(previewHeight, scroll) {
         $('header.with-bg').addClass('show');
     } else {
         $('header.with-bg').removeClass('show');
+    }
+}
+
+function checkFooter(scroll) {
+    if (scroll > 60) {
+        $('footer').addClass('with-bg');
+    } else {
+        $('footer').removeClass('with-bg');
     }
 }

@@ -54,13 +54,17 @@ header.with-bg.show {
 }
 
 footer {
-    background: var(--color-bg);
+    background: transparent;
     position: fixed;
     left: 0;
     right: 0;
     bottom: 0;
     display: none;
     z-index: 3;
+}
+
+footer.with-bg {
+    background: var(--color-bg);
 }
 
 .sideline {
