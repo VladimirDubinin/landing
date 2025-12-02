@@ -580,7 +580,7 @@ section#contacts .contacts-wrapper {
         font-size: 2.5rem;
     }
 
-    .about-info {
+    .about-info, .active .nav-pills a {
         font-size: 1.25rem;
     }
 
@@ -681,7 +681,7 @@ section#contacts .contacts-wrapper {
         font-size: 2rem;
     }
 
-    .about-info {
+    .about-info, .active .nav-pills a {
         font-size: 1rem;
     }
 
