@@ -654,6 +654,10 @@ section#contacts .contacts-wrapper {
         margin-top: 4rem;
     }
 
+    section#preview .preview-bg {
+        background-position-x: 3%;
+    }
+
     section#preview .grid {
         padding: 0 !important;
         margin: 0;
