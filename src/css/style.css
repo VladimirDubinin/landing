@@ -463,6 +463,13 @@ section#contacts .contacts-wrapper {
     text-align: center;
 }
 
+@media (min-width: 2000px) {
+    .sideline {
+        padding-left: 5rem !important;
+        padding-right: 5rem !important;
+    }
+}
+
 @media (max-width: 1400px) {
     footer {
         display: block;
