@@ -501,6 +501,10 @@ section#contacts .contacts-wrapper {
         font-size: 1.5rem;
     }
 
+    section#preview .preview-bg {
+        filter: blur(6px);
+    }
+
     section#preview .grid {
         grid-template-columns: 1fr;
         grid-template-rows: auto auto;
