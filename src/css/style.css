@@ -244,7 +244,7 @@ section#preview .preview-bg {
     background-size: cover;
     background-position: left;
     background-image: url("/src/images/space-room.webp");
-    filter: blur(6px);
+    filter: blur(7px);
 }
 
 section#preview .grid {
