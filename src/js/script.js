@@ -88,7 +88,7 @@ function checkHeader(previewHeight, scroll) {
 }
 
 function checkFooter(scroll) {
-    if (scroll > 50) {
+    if (scroll > 40) {
         $('footer').addClass('with-bg');
     } else {
         $('footer').removeClass('with-bg');
