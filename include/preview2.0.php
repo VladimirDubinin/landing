@@ -1,7 +1,7 @@
 <section id="preview">
     <div class="preview-bg"></div>
     <div class="main-info2">
-        <div class="avatar" style="background-image: url('/src/images/photo_me2.jpg')"></div>
+        <div class="avatar"></div>
         <h1 class="name hero layers"><span>Владимир Дубинин</span></h1>
         <p class="about-info">Разработчик из Ростова-на-Дону</p>
         <a class="mouse" href="#about">

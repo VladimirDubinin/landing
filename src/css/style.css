@@ -283,6 +283,8 @@ section#preview .grid {
 .main-info2 .avatar {
     height: 175px;
     width: 175px;
+    background-image: url('/src/images/photo_me2.jpg');
+    filter: drop-shadow(0 1px 3px var(--color-bg));
 }
 
 .mouse {
