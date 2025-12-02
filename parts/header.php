@@ -40,3 +40,24 @@
     </div>
 </header>
 
+<header class="with-bg py-sm-3 py-2">
+    <div class="container d-flex justify-content-center">
+        <div class="burger">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px"
+                 height="16px">
+                <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
+                      d="M-0.000,-0.000 L24.000,-0.000 L24.000,2.000 L-0.000,2.000 L-0.000,-0.000 Z"/>
+                <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
+                      d="M-0.000,7.000 L24.000,7.000 L24.000,9.000 L-0.000,9.000 L-0.000,7.000 Z"/>
+                <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
+                      d="M-0.000,14.000 L24.000,14.000 L24.000,16.000 L-0.000,16.000 L-0.000,14.000 Z"/>
+            </svg>
+        </div>
+
+        <ul class="nav nav-pills">
+            <li class="nav-item"><a href="#about" class="nav-link">Резюме</a></li>
+            <li class="nav-item"><a href="#portfolio" class="nav-link">Портфолио</a></li>
+            <li class="nav-item"><a href="#contacts" class="nav-link">Контакты</a></li>
+        </ul>
+    </div>
+</header>

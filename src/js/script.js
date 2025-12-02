@@ -9,10 +9,13 @@ $(document).ready(function () {
 
     const scroll = $(window).scrollTop();
     const mouse = $('.mouse');
+    const previewHeight = $('section#preview').height();
 
     if (scroll > 0) {
         mouse.hide();
     }
+
+    checkHeader(previewHeight, scroll)
 
     $(window).scroll(() => {
         const scroll = $(window).scrollTop();
@@ -21,6 +24,8 @@ $(document).ready(function () {
         } else {
             mouse.fadeIn("slow");
         }
+
+        checkHeader(previewHeight, scroll)
     });
 
     const preloader = $('.preloader');
@@ -36,10 +41,13 @@ $(document).ready(function () {
         })
     }
 
+    setTimeout(() => {
+        preloader.remove();
+    }, 2650);
 
     setTimeout(function () {
-        $('.preloader').remove();
-    }, 2650);
+        $('h1.name.hero.layers').addClass('glitch');
+    }, preloader.length > 0 ? 4000 : 2000);
 
     const swiperProject = new Swiper('.project-slider', {
         spaceBetween: 20,
@@ -65,8 +73,12 @@ $(document).ready(function () {
             prevEl: '.portfolio-slider .swiper-button-prev',
         }
     });
-
-    setTimeout(function () {
-        $('h1.name.hero.layers').addClass('glitch');
-    }, 4000);
 })
+
+function checkHeader(previewHeight, scroll) {
+    if (typeof previewHeight !== 'undefined' && scroll > previewHeight) {
+        $('header.with-bg').addClass('show');
+    } else {
+        $('header.with-bg').removeClass('show');
+    }
+}

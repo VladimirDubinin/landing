@@ -1,9 +1,9 @@
 <?php require_once './parts/header.php'; ?>
+
+<?php require_once './include/preview2.0.php'; ?>
 <main>
     <div class="container">
-        <?php require_once './include/preview2.0.php'; ?>
-
-        <?php require_once './include/about.php'; ?>
+                <?php require_once './include/about.php'; ?>
 
         <?php require_once './include/portfolio.php'; ?>
 

@@ -1,4 +1,5 @@
 <section id="preview">
+    <div class="preview-bg"></div>
     <div class="main-info2">
         <div class="avatar" style="background-image: url('/src/images/photo_me2.jpg')"></div>
         <h1 class="name hero layers"><span>Владимир Дубинин</span></h1>
