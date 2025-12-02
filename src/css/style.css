@@ -105,6 +105,10 @@ footer.with-bg {
     position: relative;
 }
 
+.sideline svg {
+    filter: drop-shadow(1px 1px 0px var(--color-bg));
+}
+
 .sideline a:hover {
     color: var(--color-primary);
 }
