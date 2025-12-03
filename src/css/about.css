@@ -1,0 +1,444 @@
+.biography .bio-wrapper {
+    display: grid;
+    gap: 4rem;
+    grid-template-columns: 1.5fr 1fr;
+}
+
+.biography .short {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1rem;
+}
+
+.experience, .dop-info-2 {
+    margin-top: 5rem;
+}
+
+.dop-info {
+    display: none;
+}
+
+.dop-info-2 .brains {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.dop-info-2 .headers {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-around;
+}
+
+.dop-info-2 .headers * {
+    margin: 0 !important;
+}
+
+.dop-info-2 .brain-bg {
+    position: relative;
+    width: 70%;
+    aspect-ratio: 1;
+    background-image: url("/src/images/mosk2.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dop-info-2 ul {
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    padding: 2rem 0;
+}
+
+.dop-info-2 .hard-skills ul {
+    align-items: end;
+}
+
+.dop-info-2 .soft-skills ul {
+    align-items: start;
+}
+
+.dop-info-2 ul li {
+    position: relative;
+}
+
+.dop-info-2 ul li span {
+    padding-bottom: 6px;
+    white-space: nowrap;
+}
+
+.experience .stage {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-bottom: 3px solid var(--color-primary);
+}
+
+.experience .stage:nth-child(3) {
+    border-right: 3px solid var(--color-primary);
+}
+
+.experience .item {
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+
+.experience .item .item-info {
+    padding: 0 2rem 1rem 0;
+}
+
+.item-info h6 {
+    word-break: keep-all;
+}
+
+.item-info p:last-child {
+    margin-bottom: 0;
+}
+
+.experience .item .years {
+    font-size: .875rem;
+    font-weight: 300;
+    display: inline-block;
+    color: var(--color-primary);
+    border: 1px solid var(--color-primary);
+    border-bottom: none;
+    padding: .1rem .5rem;
+}
+
+.hard-skills ul li, .dop-info-2 ul li {
+    list-style: none;
+}
+
+.hard-skills svg, .soft-skills svg {
+    color: var(--color-primary);
+}
+
+@media (min-width: 992px) {
+    .dop-info-2 li::before {
+        height: 2px;
+        bottom: -5.5px;
+    }
+
+    .dop-info-2 ul li span {
+        border-bottom: 2px solid white;
+    }
+
+    .dop-info-2 .hard-skills ul li:nth-child(1) {
+        left: -25%;
+    }
+    .dop-info-2 .hard-skills ul li:nth-child(1)::before {
+        transform: rotateZ(30deg) translate(13px, 50px);
+        width: 200px;
+    }
+
+    .dop-info-2 .hard-skills ul li:nth-child(2) {
+        left: -50%;
+    }
+    .dop-info-2 .hard-skills ul li:nth-child(2)::before {
+        transform: rotateZ(15deg) translate(3px, 23px);
+        width: 180px;
+    }
+
+    .dop-info-2 .hard-skills ul li:nth-child(3) {
+        left: -75%;
+    }
+    .dop-info-2 .hard-skills ul li:nth-child(3)::before {
+        transform: rotateZ(5deg) translate(-0.5px, 8px);
+        width: 180px;
+    }
+
+    .dop-info-2 .hard-skills ul li:nth-child(4) {
+        left: -75%;
+    }
+    .dop-info-2 .hard-skills ul li:nth-child(4)::before {
+        transform: rotateZ(-5deg) translate(-0.5px, -8px);
+        width: 180px;
+    }
+
+    .dop-info-2 .hard-skills ul li:nth-child(5) {
+        left: -50%;
+    }
+    .dop-info-2 .hard-skills ul li:nth-child(5)::before {
+        transform: rotateZ(-15deg) translate(3px, -23.5px);
+        width: 180px;
+    }
+
+    .dop-info-2 .hard-skills ul li:nth-child(6) {
+        left: -25%;
+    }
+    .dop-info-2 .hard-skills ul li:nth-child(6)::before {
+        transform: rotateZ(-30deg) translate(13px, -50px);
+        width: 200px;
+    }
+
+    .dop-info-2 .soft-skills ul li:nth-child(1) {
+        right: -25%;
+    }
+    .dop-info-2 .soft-skills ul li:nth-child(1)::before {
+        transform: rotateZ(-35deg) translate(-14px, 46px);
+        width: 160px;
+    }
+
+    .dop-info-2 .soft-skills ul li:nth-child(2) {
+        right: -50%;
+    }
+
+    .dop-info-2 .soft-skills ul li:nth-child(2)::before {
+        transform: rotateZ(-20deg) translate(-4px, 23.5px);
+        width: 140px;
+    }
+
+    .dop-info-2 .soft-skills ul li:nth-child(3) {
+        right: -75%;
+    }
+    .dop-info-2 .soft-skills ul li:nth-child(3)::before {
+        transform: rotateZ(-5deg) translate(0.5px, 7px);
+        width: 160px;
+    }
+
+    .dop-info-2 .soft-skills ul li:nth-child(4) {
+        right: -75%;
+    }
+    .dop-info-2 .soft-skills ul li:nth-child(4)::before {
+        transform: rotateZ(5deg) translate(0.5px, -7.5px);
+        width: 160px;
+    }
+
+    .dop-info-2 .soft-skills ul li:nth-child(5) {
+        right: -50%;
+    }
+    .dop-info-2 .soft-skills ul li:nth-child(5)::before {
+        transform: rotateZ(20deg) translate(-4px, -24.5px);
+        width: 140px;
+    }
+
+    .dop-info-2 .soft-skills ul li:nth-child(6) {
+        right: -25%;
+    }
+    .dop-info-2 .soft-skills ul li:nth-child(6)::before {
+        transform: rotateZ(35deg) translate(-14px, -46px);
+        width: 160px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .dop-info-2 li::before {
+        height: 1px;
+        bottom: -3.5px;
+    }
+
+    .dop-info-2 ul {
+        padding: 3rem 0;
+    }
+
+    .dop-info-2 .brain-bg {
+        background-size: 80%;
+    }
+
+    .dop-info-2 .hard-skills ul li:nth-child(1) {
+        left: 0;
+    }
+    .dop-info-2 .hard-skills ul li:nth-child(1)::before {
+        transform: rotateZ(30deg) translate(6.1px, 24.7px);
+        width: 100px;
+    }
+
+    .dop-info-2 .hard-skills ul li:nth-child(2) {
+        left: -25%;
+    }
+    .dop-info-2 .hard-skills ul li:nth-child(2)::before {
+        transform: rotateZ(15deg) translate(1.3px, 12.8px);
+        width: 100px;
+    }
+
+    .dop-info-2 .hard-skills ul li:nth-child(3) {
+        left: -50%;
+    }
+    .dop-info-2 .hard-skills ul li:nth-child(3)::before {
+        transform: rotateZ(5deg) translate(-0.5px, 4.4px);
+        width: 100px;
+    }
+
+    .dop-info-2 .hard-skills ul li:nth-child(4) {
+        left: -50%;
+    }
+    .dop-info-2 .hard-skills ul li:nth-child(4)::before {
+        transform: rotateZ(-5deg) translate(-0.5px, -4.6px);
+        width: 100px;
+    }
+
+    .dop-info-2 .hard-skills ul li:nth-child(5) {
+        left: -25%;
+    }
+    .dop-info-2 .hard-skills ul li:nth-child(5)::before {
+        transform: rotateZ(-15deg) translate(1.3px, -13.2px);
+        width: 100px;
+    }
+
+    .dop-info-2 .hard-skills ul li:nth-child(6) {
+        left: 0;
+    }
+    .dop-info-2 .hard-skills ul li:nth-child(6)::before {
+        transform: rotateZ(-30deg) translate(6.1px, -25.6px);
+        width: 100px;
+    }
+
+    .dop-info-2 .soft-skills ul li:nth-child(1) {
+        right: -30%;
+    }
+    .dop-info-2 .soft-skills ul li:nth-child(1)::before {
+        transform: rotateZ(-30deg) translate(-5.4px, 22.1px);
+        width: 90px;
+    }
+
+    .dop-info-2 .soft-skills ul li:nth-child(2) {
+        right: -50%;
+    }
+    .dop-info-2 .soft-skills ul li:nth-child(2)::before {
+        transform: rotateZ(-15deg) translate(-1.4px, 12.6px);
+        width: 100px;
+    }
+
+    .dop-info-2 .soft-skills ul li:nth-child(3) {
+        right: -60%;
+    }
+    .dop-info-2 .soft-skills ul li:nth-child(3)::before {
+        transform: rotateZ(-5deg) translate(0.3px, 4.5px);
+        width: 100px;
+    }
+
+    .dop-info-2 .soft-skills ul li:nth-child(4) {
+        right: -60%;
+    }
+    .dop-info-2 .soft-skills ul li:nth-child(4)::before {
+        transform: rotateZ(5deg) translate(0.3px, -4.7px);
+        width: 100px;
+    }
+
+    .dop-info-2 .soft-skills ul li:nth-child(5) {
+        right: -50%;
+    }
+    .dop-info-2 .soft-skills ul li:nth-child(5)::before {
+        transform: rotateZ(15deg) translate(-1.4px, -13.1px);
+        width: 100px;
+    }
+
+    .dop-info-2 .soft-skills ul li:nth-child(6) {
+        right: -30%;
+    }
+    .dop-info-2 .soft-skills ul li:nth-child(6)::before {
+        transform: rotateZ(30deg) translate(-6.1px, -22.8px);
+        width: 90px;
+    }
+}
+
+@media (min-width: 768px) {
+    .dop-info-2 li::before, .dop-info-2 li::after {
+        content: "";
+        position: absolute;
+        background: white;
+    }
+
+    .dop-info-2 .soft-skills li::before {
+        right: 100%;
+        filter: drop-shadow(-1px 1px 0px var(--color-bg));
+    }
+
+    .dop-info-2 .hard-skills li::before {
+        left: 100%;
+        filter: drop-shadow(1px 1px 0px var(--color-bg));
+    }
+}
+
+@media (max-width: 992px) {
+    .biography .bio-wrapper {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .dop-info-2 .hard-skills ul li span {
+        border-bottom: 1px solid white;
+    }
+
+    .dop-info-2 .soft-skills ul li span {
+        border-bottom: 1px solid white;
+    }
+}
+
+@media (max-width: 768px) {
+    .experience .stage {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, auto);
+        border-left: 3px solid var(--color-primary);
+        border-bottom: none;
+    }
+
+    .experience .item {
+        grid-template-rows: auto 1fr;
+    }
+
+    .experience .stage .item .item-info {
+        order: 2;
+        padding: .5rem 0 3rem .5rem;
+    }
+
+    .experience .stage .item:last-child .item-info {
+        padding-bottom: 0;
+    }
+
+    .experience .stage .item .item-time {
+        order: 1;
+    }
+
+    .experience .item .years {
+        border: 1px solid var(--color-primary);
+        border-left: none;
+    }
+
+    .dop-info-2 .brain-bg {
+        width: 100%;
+        background-size: 150%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3rem;
+    }
+
+    .dop-info-2 .hard-skills ul {
+        align-items: end;
+        padding-right: 2rem !important;
+    }
+
+    .dop-info-2 ul {
+        padding: 2rem 0 !important;
+    }
+
+    .dop-info-2 .brain-bg {
+        background-size: 0
+    }
+
+    .dop-info {
+        display: block;
+    }
+
+    .dop-info-2 {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .experience, .dop-info .hard-skills, .dop-info .soft-skills, .dop-info-2 {
+        margin-top: 4rem;
+    }
+
+    .dop-info ul li:not(:last-child) {
+        margin-bottom: 1rem;
+    }
+
+    .dop-info ul li::marker {
+        color: var(--color-primary);
+    }
+}

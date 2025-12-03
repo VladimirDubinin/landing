@@ -16,7 +16,9 @@
     <link rel="stylesheet" href="/src/css/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="/src/css/jquery.fancybox.min.css"/>
     <link rel="stylesheet" href="/src/css/fonts.css?t=<?= time(); ?>">
+    <link rel="stylesheet" href="/src/css/animation.css?t=<?= time(); ?>">
     <link rel="stylesheet" href="/src/css/style.css?t=<?= time(); ?>">
+    <link rel="stylesheet" href="/src/css/about.css?t=<?= time(); ?>">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="36x36"  href="/android-icon-36x36.png">
