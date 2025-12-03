@@ -3,10 +3,11 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <meta name="robots" content="index, follow" />
     <title>Владимир Дубинин - Fullstack-разработчик</title>
     <meta name="title" content="Владимир Дубинин - Fullstack-разработчик">
-    <meta name="description" content="Привет, я Fullstack-разработчик из Ростова-на-Дону с 4-х летним опытом коммерческой разработки веб-приложений на Laravel и VueJS.">
-    <meta name="keywords" content="laravel, vue, разработчик, программист, php, js, middle, fullstack, backend, веб-разработка, ro100v4anin, rostovchanin, ростовчанин">
+    <meta name="description" content="Fullstack-разработчик из Ростова-на-Дону с 4-х летним опытом коммерческой разработки веб-приложений на Laravel и VueJS.">
+    <meta name="keywords" content="laravel, vue, разработчик, программист, php, js, middle, fullstack, backend, веб-разработка, ro100v4anin, rostovchanin, ростовчанин, создание сайтов Ростов-на-Дону">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
@@ -16,7 +17,10 @@
     <link rel="stylesheet" href="/src/css/jquery.fancybox.min.css"/>
     <link rel="stylesheet" href="/src/css/fonts.css?t=<?= time(); ?>">
     <link rel="stylesheet" href="/src/css/style.css?t=<?= time(); ?>">
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="36x36"  href="/android-icon-36x36.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
 </head>
 <body>
 <header class="py-sm-3 py-2">
