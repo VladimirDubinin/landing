@@ -25,8 +25,8 @@
                                     </a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <a href="/src/images/ac/3.jpg" data-fancybox="gallery-ac">
-                                        <img class="project-img" src="/src/images/ac/3.jpg" alt="">
+                                    <a href="/src/images/ac/5_original.jpg" data-fancybox="gallery-ac">
+                                        <img class="project-img" src="/src/images/ac/5_preview.jpg" alt="">
                                     </a>
                                 </div>
                                 <div class="swiper-slide">
@@ -62,18 +62,18 @@
                         <div class="project-slider swiper">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <a href="/src/images/federation/1.jpg" data-fancybox="gallery-federation">
-                                        <img class="project-img" src="/src/images/federation/1.jpg" alt="">
+                                    <a href="/src/images/federation/4_original.jpg" data-fancybox="gallery-federation">
+                                        <img class="project-img" src="/src/images/federation/4_preview.jpg" alt="">
                                     </a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <a href="/src/images/federation/2.jpg" data-fancybox="gallery-federation">
-                                        <img class="project-img" src="/src/images/federation/2.jpg" alt="">
+                                    <a href="/src/images/federation/5_original.jpg" data-fancybox="gallery-federation">
+                                        <img class="project-img" src="/src/images/federation/5_preview.jpg" alt="">
                                     </a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <a href="/src/images/federation/3.jpg" data-fancybox="gallery-federation">
-                                        <img class="project-img" src="/src/images/federation/3.jpg" alt="">
+                                    <a href="/src/images/federation/6_original.jpg" data-fancybox="gallery-federation">
+                                        <img class="project-img" src="/src/images/federation/6_preview.jpg" alt="">
                                     </a>
                                 </div>
                             </div>
