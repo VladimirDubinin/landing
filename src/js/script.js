@@ -17,7 +17,7 @@ $(document).ready(function () {
     }
 
     checkHeader(previewHeight, scroll);
-    checkFooter(scroll);
+    checkFooter(windowHeight, previewHeight, scroll);
 
     $(window).scroll(() => {
         const scroll = $(window).scrollTop();
@@ -89,7 +89,7 @@ function checkHeader(previewHeight, scroll) {
 }
 
 function checkFooter(windowHeight, previewHeight, scroll) {
-    if ((previewHeight - windowHeight) < scroll) {
+    if ((previewHeight - windowHeight) < scroll - 10) {
         $('footer').addClass('with-bg');
     } else {
         $('footer').removeClass('with-bg');

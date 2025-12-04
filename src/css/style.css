@@ -65,7 +65,7 @@ footer {
     bottom: 0;
     display: none;
     z-index: 3;
-    transition: .2s;
+    /*transition: .2s;*/
 }
 
 footer.with-bg {

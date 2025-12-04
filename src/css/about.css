@@ -10,39 +10,39 @@
     gap: 1rem;
 }
 
-.experience, .dop-info-2, .dop-info .hard-skills, .dop-info .soft-skills {
+.experience, .dop-info, .dop-info-mobile .hard-skills, .dop-info-mobile .soft-skills {
     margin-top: 5rem;
 }
 
-.dop-info ul li:not(:last-child) {
+.dop-info-mobile ul li:not(:last-child) {
     margin-bottom: 1rem;
 }
 
-.dop-info ul li::marker {
+.dop-info-mobile ul li::marker {
     color: var(--color-primary);
 }
 
-.dop-info {
+.dop-info-mobile {
     display: none;
 }
 
-.dop-info-2 .brains {
+.dop-info .brains {
     display: flex;
     width: 100%;
     justify-content: center;
 }
 
-.dop-info-2 .headers {
+.dop-info .headers {
     display: flex;
     gap: 1rem;
     justify-content: space-around;
 }
 
-.dop-info-2 .headers * {
+.dop-info .headers * {
     margin: 0 !important;
 }
 
-.dop-info-2 .brain-bg {
+.dop-info .brain-bg {
     position: relative;
     width: 70%;
     aspect-ratio: 1;
@@ -54,7 +54,7 @@
     justify-content: space-between;
 }
 
-.dop-info-2 ul {
+.dop-info ul {
     height: 100%;
     display: flex;
     flex-flow: column nowrap;
@@ -62,19 +62,19 @@
     padding: 2rem 0;
 }
 
-.dop-info-2 .hard-skills ul {
+.dop-info .hard-skills ul {
     align-items: end;
 }
 
-.dop-info-2 .soft-skills ul {
+.dop-info .soft-skills ul {
     align-items: start;
 }
 
-.dop-info-2 ul li {
+.dop-info ul li {
     position: relative;
 }
 
-.dop-info-2 ul li span {
+.dop-info ul li span {
     padding-bottom: 6px;
     white-space: nowrap;
 }
@@ -116,11 +116,11 @@
     padding: .1rem .5rem;
 }
 
-.dop-info ul li, .dop-info-2 ul li {
+.dop-info-mobile ul li, .dop-info ul li {
     list-style: none;
 }
 
-.dop-info ul li span {
+.dop-info-mobile ul li span {
     font-weight: bolder;
 }
 
@@ -129,238 +129,238 @@
 }
 
 @media (min-width: 992px) {
-    .dop-info-2 li::before {
+    .dop-info li::before {
         height: 2px;
         bottom: -5.5px;
     }
 
-    .dop-info-2 ul li span {
+    .dop-info ul li span {
         border-bottom: 2px solid white;
         font-weight: bolder;
     }
 
-    .dop-info-2 .hard-skills ul li:nth-child(1) {
+    .dop-info .hard-skills ul li:nth-child(1) {
         left: -25%;
     }
-    .dop-info-2 .hard-skills ul li:nth-child(1)::before {
+    .dop-info .hard-skills ul li:nth-child(1)::before {
         transform: rotateZ(30deg) translate(13px, 50px);
         width: 200px;
     }
 
-    .dop-info-2 .hard-skills ul li:nth-child(2) {
+    .dop-info .hard-skills ul li:nth-child(2) {
         left: -50%;
     }
-    .dop-info-2 .hard-skills ul li:nth-child(2)::before {
+    .dop-info .hard-skills ul li:nth-child(2)::before {
         transform: rotateZ(15deg) translate(3px, 23px);
         width: 180px;
     }
 
-    .dop-info-2 .hard-skills ul li:nth-child(3) {
+    .dop-info .hard-skills ul li:nth-child(3) {
         left: -75%;
     }
-    .dop-info-2 .hard-skills ul li:nth-child(3)::before {
+    .dop-info .hard-skills ul li:nth-child(3)::before {
         transform: rotateZ(5deg) translate(-0.5px, 8px);
         width: 180px;
     }
 
-    .dop-info-2 .hard-skills ul li:nth-child(4) {
+    .dop-info .hard-skills ul li:nth-child(4) {
         left: -75%;
     }
-    .dop-info-2 .hard-skills ul li:nth-child(4)::before {
+    .dop-info .hard-skills ul li:nth-child(4)::before {
         transform: rotateZ(-5deg) translate(-0.5px, -8px);
         width: 180px;
     }
 
-    .dop-info-2 .hard-skills ul li:nth-child(5) {
+    .dop-info .hard-skills ul li:nth-child(5) {
         left: -50%;
     }
-    .dop-info-2 .hard-skills ul li:nth-child(5)::before {
+    .dop-info .hard-skills ul li:nth-child(5)::before {
         transform: rotateZ(-15deg) translate(3px, -23.5px);
         width: 180px;
     }
 
-    .dop-info-2 .hard-skills ul li:nth-child(6) {
+    .dop-info .hard-skills ul li:nth-child(6) {
         left: -25%;
     }
-    .dop-info-2 .hard-skills ul li:nth-child(6)::before {
+    .dop-info .hard-skills ul li:nth-child(6)::before {
         transform: rotateZ(-30deg) translate(13px, -50px);
         width: 200px;
     }
 
-    .dop-info-2 .soft-skills ul li:nth-child(1) {
+    .dop-info .soft-skills ul li:nth-child(1) {
         right: -25%;
     }
-    .dop-info-2 .soft-skills ul li:nth-child(1)::before {
+    .dop-info .soft-skills ul li:nth-child(1)::before {
         transform: rotateZ(-35deg) translate(-14px, 46px);
         width: 160px;
     }
 
-    .dop-info-2 .soft-skills ul li:nth-child(2) {
+    .dop-info .soft-skills ul li:nth-child(2) {
         right: -50%;
     }
 
-    .dop-info-2 .soft-skills ul li:nth-child(2)::before {
+    .dop-info .soft-skills ul li:nth-child(2)::before {
         transform: rotateZ(-20deg) translate(-4px, 23.5px);
         width: 140px;
     }
 
-    .dop-info-2 .soft-skills ul li:nth-child(3) {
+    .dop-info .soft-skills ul li:nth-child(3) {
         right: -75%;
     }
-    .dop-info-2 .soft-skills ul li:nth-child(3)::before {
+    .dop-info .soft-skills ul li:nth-child(3)::before {
         transform: rotateZ(-5deg) translate(0.5px, 7px);
         width: 160px;
     }
 
-    .dop-info-2 .soft-skills ul li:nth-child(4) {
+    .dop-info .soft-skills ul li:nth-child(4) {
         right: -75%;
     }
-    .dop-info-2 .soft-skills ul li:nth-child(4)::before {
+    .dop-info .soft-skills ul li:nth-child(4)::before {
         transform: rotateZ(5deg) translate(0.5px, -7.5px);
         width: 160px;
     }
 
-    .dop-info-2 .soft-skills ul li:nth-child(5) {
+    .dop-info .soft-skills ul li:nth-child(5) {
         right: -50%;
     }
-    .dop-info-2 .soft-skills ul li:nth-child(5)::before {
+    .dop-info .soft-skills ul li:nth-child(5)::before {
         transform: rotateZ(20deg) translate(-4px, -24.5px);
         width: 140px;
     }
 
-    .dop-info-2 .soft-skills ul li:nth-child(6) {
+    .dop-info .soft-skills ul li:nth-child(6) {
         right: -25%;
     }
-    .dop-info-2 .soft-skills ul li:nth-child(6)::before {
+    .dop-info .soft-skills ul li:nth-child(6)::before {
         transform: rotateZ(35deg) translate(-14px, -46px);
         width: 160px;
     }
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
-    .dop-info-2 li::before {
+    .dop-info li::before {
         height: 1px;
         bottom: -3.5px;
     }
 
-    .dop-info-2 ul {
+    .dop-info ul {
         padding: 3rem 0;
     }
 
-    .dop-info-2 .brain-bg {
+    .dop-info .brain-bg {
         background-size: 80%;
     }
 
-    .dop-info-2 .hard-skills ul li:nth-child(1) {
+    .dop-info .hard-skills ul li:nth-child(1) {
         left: 0;
     }
-    .dop-info-2 .hard-skills ul li:nth-child(1)::before {
+    .dop-info .hard-skills ul li:nth-child(1)::before {
         transform: rotateZ(30deg) translate(6.1px, 24.7px);
         width: 100px;
     }
 
-    .dop-info-2 .hard-skills ul li:nth-child(2) {
+    .dop-info .hard-skills ul li:nth-child(2) {
         left: -25%;
     }
-    .dop-info-2 .hard-skills ul li:nth-child(2)::before {
+    .dop-info .hard-skills ul li:nth-child(2)::before {
         transform: rotateZ(15deg) translate(1.3px, 12.8px);
         width: 100px;
     }
 
-    .dop-info-2 .hard-skills ul li:nth-child(3) {
+    .dop-info .hard-skills ul li:nth-child(3) {
         left: -50%;
     }
-    .dop-info-2 .hard-skills ul li:nth-child(3)::before {
+    .dop-info .hard-skills ul li:nth-child(3)::before {
         transform: rotateZ(5deg) translate(-0.5px, 4.4px);
         width: 100px;
     }
 
-    .dop-info-2 .hard-skills ul li:nth-child(4) {
+    .dop-info .hard-skills ul li:nth-child(4) {
         left: -50%;
     }
-    .dop-info-2 .hard-skills ul li:nth-child(4)::before {
+    .dop-info .hard-skills ul li:nth-child(4)::before {
         transform: rotateZ(-5deg) translate(-0.5px, -4.6px);
         width: 100px;
     }
 
-    .dop-info-2 .hard-skills ul li:nth-child(5) {
+    .dop-info .hard-skills ul li:nth-child(5) {
         left: -25%;
     }
-    .dop-info-2 .hard-skills ul li:nth-child(5)::before {
+    .dop-info .hard-skills ul li:nth-child(5)::before {
         transform: rotateZ(-15deg) translate(1.3px, -13.2px);
         width: 100px;
     }
 
-    .dop-info-2 .hard-skills ul li:nth-child(6) {
+    .dop-info .hard-skills ul li:nth-child(6) {
         left: 0;
     }
-    .dop-info-2 .hard-skills ul li:nth-child(6)::before {
+    .dop-info .hard-skills ul li:nth-child(6)::before {
         transform: rotateZ(-30deg) translate(6.1px, -25.6px);
         width: 100px;
     }
 
-    .dop-info-2 .soft-skills ul li:nth-child(1) {
+    .dop-info .soft-skills ul li:nth-child(1) {
         right: -30%;
     }
-    .dop-info-2 .soft-skills ul li:nth-child(1)::before {
+    .dop-info .soft-skills ul li:nth-child(1)::before {
         transform: rotateZ(-30deg) translate(-5.4px, 22.1px);
         width: 90px;
     }
 
-    .dop-info-2 .soft-skills ul li:nth-child(2) {
+    .dop-info .soft-skills ul li:nth-child(2) {
         right: -50%;
     }
-    .dop-info-2 .soft-skills ul li:nth-child(2)::before {
+    .dop-info .soft-skills ul li:nth-child(2)::before {
         transform: rotateZ(-15deg) translate(-1.4px, 12.6px);
         width: 100px;
     }
 
-    .dop-info-2 .soft-skills ul li:nth-child(3) {
+    .dop-info .soft-skills ul li:nth-child(3) {
         right: -60%;
     }
-    .dop-info-2 .soft-skills ul li:nth-child(3)::before {
+    .dop-info .soft-skills ul li:nth-child(3)::before {
         transform: rotateZ(-5deg) translate(0.3px, 4.5px);
         width: 100px;
     }
 
-    .dop-info-2 .soft-skills ul li:nth-child(4) {
+    .dop-info .soft-skills ul li:nth-child(4) {
         right: -60%;
     }
-    .dop-info-2 .soft-skills ul li:nth-child(4)::before {
+    .dop-info .soft-skills ul li:nth-child(4)::before {
         transform: rotateZ(5deg) translate(0.3px, -4.7px);
         width: 100px;
     }
 
-    .dop-info-2 .soft-skills ul li:nth-child(5) {
+    .dop-info .soft-skills ul li:nth-child(5) {
         right: -50%;
     }
-    .dop-info-2 .soft-skills ul li:nth-child(5)::before {
+    .dop-info .soft-skills ul li:nth-child(5)::before {
         transform: rotateZ(15deg) translate(-1.4px, -13.1px);
         width: 100px;
     }
 
-    .dop-info-2 .soft-skills ul li:nth-child(6) {
+    .dop-info .soft-skills ul li:nth-child(6) {
         right: -30%;
     }
-    .dop-info-2 .soft-skills ul li:nth-child(6)::before {
+    .dop-info .soft-skills ul li:nth-child(6)::before {
         transform: rotateZ(30deg) translate(-6.1px, -22.8px);
         width: 90px;
     }
 }
 
 @media (min-width: 768px) {
-    .dop-info-2 li::before, .dop-info-2 li::after {
+    .dop-info li::before, .dop-info li::after {
         content: "";
         position: absolute;
         background: white;
     }
 
-    .dop-info-2 .soft-skills li::before {
+    .dop-info .soft-skills li::before {
         right: 100%;
         filter: drop-shadow(-1px 1px 0px var(--color-bg));
     }
 
-    .dop-info-2 .hard-skills li::before {
+    .dop-info .hard-skills li::before {
         left: 100%;
         filter: drop-shadow(1px 1px 0px var(--color-bg));
     }
@@ -372,11 +372,11 @@
         gap: 2rem;
     }
 
-    .dop-info-2 .hard-skills ul li span {
+    .dop-info .hard-skills ul li span {
         border-bottom: 1px solid white;
     }
 
-    .dop-info-2 .soft-skills ul li span {
+    .dop-info .soft-skills ul li span {
         border-bottom: 1px solid white;
     }
 }
@@ -412,7 +412,7 @@
         border-left: none;
     }
 
-    .dop-info-2 .brain-bg {
+    .dop-info .brain-bg {
         width: 100%;
         background-size: 150%;
         display: grid;
@@ -420,29 +420,29 @@
         gap: 3rem;
     }
 
-    .dop-info-2 .hard-skills ul {
+    .dop-info .hard-skills ul {
         align-items: end;
     }
 
-    .dop-info-2 .brain-bg {
+    .dop-info .brain-bg {
         background-size: 50%;
     }
 
-    .dop-info {
+    .dop-info-mobile {
         display: block;
     }
 
-    .dop-info-2 {
+    .dop-info {
         display: none;
     }
 }
 
 @media (max-width: 576px) {
-    .experience, .dop-info .hard-skills, .dop-info .soft-skills, .dop-info-2 {
+    .experience, .dop-info-mobile .hard-skills, .dop-info-mobile .soft-skills, .dop-info {
         margin-top: 4rem;
     }
 
-    .dop-info-2 ul li span {
+    .dop-info ul li span {
         font-size: .875rem;
     }
 }
