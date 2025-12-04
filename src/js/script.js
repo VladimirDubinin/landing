@@ -8,6 +8,7 @@ $(document).ready(function () {
     })
 
     const scroll = $(window).scrollTop();
+    const windowHeight = $(window).height();
     const mouse = $('.mouse');
     const previewHeight = $('section#preview').height();
 
@@ -27,7 +28,7 @@ $(document).ready(function () {
         }
 
         checkHeader(previewHeight, scroll);
-        checkFooter(scroll);
+        checkFooter(windowHeight, previewHeight, scroll);
     });
 
     const preloader = $('.preloader');
@@ -87,8 +88,8 @@ function checkHeader(previewHeight, scroll) {
     }
 }
 
-function checkFooter(scroll) {
-    if (scroll > 40) {
+function checkFooter(windowHeight, previewHeight, scroll) {
+    if ((previewHeight - windowHeight) < scroll) {
         $('footer').addClass('with-bg');
     } else {
         $('footer').removeClass('with-bg');
