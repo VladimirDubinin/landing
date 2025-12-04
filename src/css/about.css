@@ -435,12 +435,20 @@
         gap: 1rem;
     }
 
-    .dop-info-mobile ul {
+    .dop-info-mobile .hard-skills ul {
         align-items: start;
     }
 
-    .dop-info-mobile h5 {
+    .dop-info-mobile .hard-skills h5 {
         text-align: start;
+    }
+
+    .dop-info-mobile .soft-skills ul {
+        align-items: end;
+    }
+
+    .dop-info-mobile .soft-skills h5 {
+        text-align: end;
     }
 
     .dop-info {
