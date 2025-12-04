@@ -10,8 +10,16 @@
     gap: 1rem;
 }
 
-.experience, .dop-info-2 {
+.experience, .dop-info-2, .dop-info .hard-skills, .dop-info .soft-skills {
     margin-top: 5rem;
+}
+
+.dop-info ul li:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+.dop-info ul li::marker {
+    color: var(--color-primary);
 }
 
 .dop-info {
@@ -108,8 +116,12 @@
     padding: .1rem .5rem;
 }
 
-.hard-skills ul li, .dop-info-2 ul li {
+.dop-info ul li, .dop-info-2 ul li {
     list-style: none;
+}
+
+.dop-info ul li span {
+    font-weight: bolder;
 }
 
 .hard-skills svg, .soft-skills svg {
@@ -124,6 +136,7 @@
 
     .dop-info-2 ul li span {
         border-bottom: 2px solid white;
+        font-weight: bolder;
     }
 
     .dop-info-2 .hard-skills ul li:nth-child(1) {
@@ -409,15 +422,10 @@
 
     .dop-info-2 .hard-skills ul {
         align-items: end;
-        padding-right: 2rem !important;
-    }
-
-    .dop-info-2 ul {
-        padding: 2rem 0 !important;
     }
 
     .dop-info-2 .brain-bg {
-        background-size: 0
+        background-size: 50%;
     }
 
     .dop-info {
@@ -434,11 +442,7 @@
         margin-top: 4rem;
     }
 
-    .dop-info ul li:not(:last-child) {
-        margin-bottom: 1rem;
-    }
-
-    .dop-info ul li::marker {
-        color: var(--color-primary);
+    .dop-info-2 ul li span {
+        font-size: .875rem;
     }
 }
