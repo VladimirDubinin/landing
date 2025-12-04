@@ -289,9 +289,13 @@ section#preview .grid {
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    min-height: 500px;
     position: relative;
 }
+
+.main-info2, section#preview .preview-bg {
+    min-height: 500px;
+}
+
 
 .main-info2 .avatar {
     height: 175px;
@@ -308,8 +312,6 @@ section#preview .grid {
     cursor: pointer;
     animation: pulse 1.5s ease infinite;
 }
-
-
 
 section#contacts .contacts-wrapper {
     display: grid;
@@ -461,7 +463,7 @@ section#portfolio {
 
     .mouse {
         bottom: unset;
-        top: 80%;
+        top: 85%;
     }
 
     .preloader {
@@ -529,7 +531,8 @@ section#portfolio {
     }
 
     .mouse {
-        bottom: 80px;
+        top: unset;
+        bottom: 80px !important;
     }
 }
 
