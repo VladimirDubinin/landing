@@ -70,7 +70,6 @@
     <div class="dop-info-mobile">
         <div class="hard-skills">
             <h5>Hard Skills</h5>
-            <p class="text-mobile">Основные компетенции:</p>
             <ul class="ul-mobile m-0">
                 <li>
                     <span>
@@ -127,7 +126,6 @@
         </div>
         <div class="soft-skills">
             <h5>Soft Skills</h5>
-            <p class="text-mobile">Ключевые Soft Skills, характеризующие мой подход к работе:</p>
             <ul class="ul-mobile m-0">
                 <li>
                     <span>

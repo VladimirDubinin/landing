@@ -122,6 +122,7 @@
 
 .dop-info-mobile ul li span {
     font-weight: bolder;
+    white-space: nowrap;
 }
 
 .hard-skills svg, .soft-skills svg {
@@ -429,7 +430,17 @@
     }
 
     .dop-info-mobile {
-        display: block;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+    .dop-info-mobile ul {
+        align-items: start;
+    }
+
+    .dop-info-mobile h5 {
+        text-align: start;
     }
 
     .dop-info {
@@ -444,5 +455,19 @@
 
     .dop-info ul li span {
         font-size: .875rem;
+    }
+}
+
+@media (max-width: 359px) {
+    .dop-info-mobile {
+        display: block;
+    }
+
+    .dop-info-mobile ul {
+        align-items: center;
+    }
+
+    .dop-info-mobile h5 {
+        text-align: center;
     }
 }
