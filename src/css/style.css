@@ -459,7 +459,7 @@ section#contacts .contacts-wrapper {
 
     .mouse {
         bottom: unset;
-        top: 85%;
+        top: 80%;
     }
 
     .preloader {
@@ -530,11 +530,6 @@ section#contacts .contacts-wrapper {
 
     .about-info, .active .nav-pills a {
         font-size: 1.25rem;
-    }
-
-    .mouse {
-        top: unset;
-        bottom: 80px !important;
     }
 
     h2, h3, h4, h5, .text-mobile {
