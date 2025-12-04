@@ -629,3 +629,13 @@ section#contacts .contacts-wrapper {
     background-clip: text;
     background-image: url('/src/images/gradient_1000_500.png');
 }
+
+@media (min-width: 2400px) {
+    main {
+        max-width: 1200px;
+    }
+
+    .project-slider {
+        max-width: 600px;
+    }
+}
