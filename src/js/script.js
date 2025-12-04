@@ -7,9 +7,9 @@ $(document).ready(function () {
         $(e.target).closest('header').removeClass('active');
     })
 
+    const mouse = $('.mouse');
     const scroll = $(window).scrollTop();
     const windowHeight = $(window).height();
-    const mouse = $('.mouse');
     const previewHeight = $('section#preview').height();
 
     if (scroll > 0) {
@@ -21,6 +21,8 @@ $(document).ready(function () {
 
     $(window).scroll(() => {
         const scroll = $(window).scrollTop();
+        const previewHeight = $('section#preview').height();
+        const windowHeight = $(window).height();
         if (scroll > 0) {
             mouse.fadeOut();
         } else {
