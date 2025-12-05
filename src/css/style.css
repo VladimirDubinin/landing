@@ -3,6 +3,7 @@
     --color-secondary: #03acf4;
     --color-bg: #161822;
     --color-bg-old: #1D1D24;
+    --gradient: linear-gradient(90deg, rgb(14, 16, 23) 0%, rgb(13, 19, 34) 33%, rgb(13, 19, 34) 66%, rgb(14, 16, 23) 100%) !important;
 }
 
 html {
@@ -68,7 +69,7 @@ footer {
 
 header.with-bg, footer.with-bg, body {
     /*background: var(--color-bg) !important;*/
-    background: linear-gradient(90deg, rgb(14, 16, 23) 0%, rgb(13, 19, 34) 33%, rgb(13, 19, 34) 66%, rgb(14, 16, 23) 100%) !important;
+    background: var(--gradient);
 }
 
 h1, h2, h3, h4, h5 {
@@ -506,7 +507,7 @@ section#contacts .contacts-wrapper {
     }
 
     .nav-pills {
-        background: var(--color-bg);
+        background: var(--gradient);
         transition: .2s;
         position: absolute;
         width: 100vw;
