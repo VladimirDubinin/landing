@@ -160,6 +160,11 @@ h1.name, .stack span {
     bottom: 0;
 }
 
+.icon-18 {
+    width: 18px;
+    height: 18px;
+}
+
 .icon-24 {
     width: 24px;
     height: 24px;

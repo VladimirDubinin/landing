@@ -106,6 +106,16 @@
     margin-bottom: 0;
 }
 
+.item-info svg {
+    color: var(--color-primary);
+}
+
+.item-info .add-inf {
+    font-style: oblique;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
 .experience .item .years {
     font-size: .875rem;
     font-weight: 300;
@@ -379,6 +389,10 @@
 
     .dop-info .soft-skills ul li span {
         border-bottom: 1px solid white;
+    }
+
+    .item-info .add-inf {
+        font-size: .875rem;
     }
 }
 
