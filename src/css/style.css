@@ -12,7 +12,6 @@ html {
 
 body {
     height: 100%;
-    background: var(--color-bg);
     color: white;
     font-size: 1.125rem;
     line-height: 1.5;
@@ -48,7 +47,6 @@ header:not(.with-bg) .nav-link {
 }
 
 header.with-bg {
-    background: var(--color-bg) !important;
     transform: translateY(-75px);
     position: fixed;
 }
@@ -68,8 +66,35 @@ footer {
     /*transition: .2s;*/
 }
 
-footer.with-bg {
-    background: var(--color-bg);
+header.with-bg, footer.with-bg, body {
+    /*background: var(--color-bg) !important;*/
+    background: linear-gradient(90deg, rgb(22, 24, 34) 0%, rgb(29, 31, 45) 50%, rgb(22, 24, 34) 100%) !important;
+}
+
+h1, h2, h3, h4, h5 {
+    color: var(--color-primary);
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+h2, h3, h4, h5, .shad {
+    filter: drop-shadow(0 2px 3px var(--color-bg));
+}
+
+h6 {
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    font-size: 1.75rem;
+}
+
+h1.name, .stack span {
+    margin-bottom: 0;
+    font-family: 'MuseoSansCyrl', sans-serif;
+    width: 100%;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 600;
 }
 
 .sideline {
@@ -217,28 +242,6 @@ main {
     color: var(--color-primary);
 }
 
-h1, h2, h3, h4, h5 {
-    color: var(--color-primary);
-    font-weight: 600;
-    margin-bottom: 2rem;
-}
-
-h6 {
-    text-transform: uppercase;
-    font-weight: 300;
-    margin-bottom: 1rem;
-    font-size: 1.75rem;
-}
-
-h1.name, .stack span {
-    margin-bottom: 0;
-    font-family: 'MuseoSansCyrl', sans-serif;
-    width: 100%;
-    text-align: center;
-    font-size: 4rem;
-    font-weight: 600;
-}
-
 .about-info {
     font-size: 1.5rem;
     text-align: center;
@@ -332,11 +335,9 @@ section#contacts .contacts-wrapper {
     align-items: center;
 }
 
-.contact .header span {
-    text-transform: uppercase;
+.contact h6 {
+    margin-bottom: 0;
     font-size: 1.5rem;
-    line-height: 1;
-    font-weight: 300;
 }
 
 .portfolio-slider {
@@ -550,8 +551,8 @@ section#contacts .contacts-wrapper {
         font-size: .875rem;
     }
 
-    h6, .contact .header span {
-        font-size: 1.25rem;
+    h6 {
+        font-size: 1.25rem !important;
     }
 
     main section {

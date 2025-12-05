@@ -21,12 +21,12 @@
                 </p>
             </div>
             <div class="short text-mobile">
-                <div><span class="marker">Имя:</span> Владимир Дубинин</div>
-                <div><span class="marker">Специальность:</span> Fullstack</div>
-                <div><span class="marker">Основной стек:</span> Laravel & Vue.js</div>
-                <div><span class="marker">Стаж работы:</span> 4 года</div>
-                <div><span class="marker">Страна:</span> Россия</div>
-                <div><span class="marker">Город:</span> Ростов-на-Дону</div>
+                <div><span class="marker shad">Имя:</span> Владимир Дубинин</div>
+                <div><span class="marker shad">Специальность:</span> Fullstack</div>
+                <div><span class="marker shad">Основной стек:</span> Laravel & Vue.js</div>
+                <div><span class="marker shad">Стаж работы:</span> 4 года</div>
+                <div><span class="marker shad">Страна:</span> Россия</div>
+                <div><span class="marker shad">Город:</span> Ростов-на-Дону</div>
             </div>
         </div>
     </div>
