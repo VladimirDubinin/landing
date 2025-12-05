@@ -79,7 +79,7 @@ h1, h2, h3, h4, h5 {
 }
 
 h2, h3, h4, h5 {
-    filter: drop-shadow(2px 2px 1px #861900);
+    filter: drop-shadow(3px 3px 1px #861900);
 }
 
 .shad {
