@@ -77,8 +77,12 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 2rem;
 }
 
-h2, h3, h4, h5, .shad {
-    filter: drop-shadow(0 2px 3px var(--color-bg));
+h2, h3, h4, h5 {
+    filter: drop-shadow(2px 2px 1px #861900);
+}
+
+.shad {
+    filter: drop-shadow(1px 1px 1px var(--color-bg));
 }
 
 h6 {
