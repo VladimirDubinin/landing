@@ -70,13 +70,18 @@
     </div>
 </footer>
 
-<? if (!isset($_COOKIE['preloader'])) { ?>
-<div class="preloader hidden">
+<? if (isset($_COOKIE['preloader'])) {
+    $fastBG = true;
+}?>
+
+<div class="preloader <?=isset($fastBG) ? 'fast' : ''?>">
+    <? if (!isset($fastBG)) { ?>
     <div class="stack" style="--stacks: 3;">
         <span style="--index: 0;">Владимир Дубинин</span>
     </div>
+    <? } ?>
 </div>
-<? } ?>
+
 
 <script src="/src/js/jquery-3.7.1.min.js"></script>
 <script src="/src/js/jquery.fancybox.min.js"></script>

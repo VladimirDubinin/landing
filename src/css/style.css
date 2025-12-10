@@ -617,9 +617,13 @@ section#contacts .contacts-wrapper {
     background: var(--color-bg);
     z-index: 50;
     opacity: 0;
-    animation: fadeOut 2.65s ease-out;
+    animation: fadeOutBg 2.65s ease-out;
     top: 0;
     display: flex;
+}
+
+.preloader.fast {
+    animation: fadeOut .25s ease-out;
 }
 
 .preloader .stack {

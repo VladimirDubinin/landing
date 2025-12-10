@@ -34,7 +34,8 @@ $(document).ready(function () {
     });
 
     const preloader = $('.preloader');
-    if (preloader.length > 0) {
+    const preloaderName = $('.preloader .stack');
+    if (preloaderName.length > 0) {
         const url = '/ajax/cookies.php';
         $.ajax({
             method: 'POST',
@@ -44,11 +45,15 @@ $(document).ready(function () {
         preloader.on('click', () => {
             preloader.remove();
         })
-    }
 
-    setTimeout(() => {
-        preloader.remove();
-    }, 2650);
+        setTimeout(() => {
+            preloader.remove();
+        }, 2650);
+    } else {
+        setTimeout(() => {
+            preloader.remove();
+        }, 650);
+    }
 
     setTimeout(function () {
         $('h1.name.hero.layers').addClass('glitch');
