@@ -623,7 +623,7 @@ section#contacts .contacts-wrapper {
 }
 
 .preloader.fast {
-    animation: fadeOut .25s ease-out;
+    animation: fadeOut .5s ease-out;
 }
 
 .preloader .stack {
