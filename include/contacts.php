@@ -80,7 +80,7 @@
         </div>
 
         <div class="contact">
-            <p class="copyright">© 2025</p>
+            <p class="copyright">© <?=date('Y')?></p>
         </div>
     </div>
 </section>

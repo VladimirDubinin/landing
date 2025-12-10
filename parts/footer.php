@@ -32,7 +32,7 @@
     <div class="container py-3">
         <div class="footer-wrapper d-flex justify-content-md-between justify-content-center align-items-center">
             <div class="copyright d-none d-md-block">
-                <p class="m-0">© 2025</p>
+                <p class="m-0">© <?=date('Y')?></p>
             </div>
             <div class="icons d-flex justify-content-md-right justify-content-center gap-3">
                 <a href="mailto:ro100v4anin@yandex.ru" title="Email">

@@ -4,19 +4,23 @@
         <div class="bio-wrapper">
             <div class="description">
                 <p class="text-mobile">
-                    Привет, я Fullstack-разработчик из Ростова-на-Дону с 4-х летним опытом
-                    коммерческой разработки веб-приложений на PHP и JS.
+                    <?php
+                        $originalTime  = new DateTime("2021-07-01");
+                        $targetTime = new DateTime("now");
+                        $interval = $originalTime->diff($targetTime);
+                        $stage = $interval->y . ' ' . determ_word_end($interval->y, ['год', 'года', 'лет']);
+                    ?>
+                    Привет, я Fullstack-разработчик из Ростова-на-Дону с опытом
+                    коммерческой разработки <?=$stage?> на языках программирования PHP и JS.
                 </p>
                 <p class="text-mobile">
+                    Специализируюсь на разработке веб-приложений и Telegram-ботов.
                     Мой основной стек - Laravel для построения серверной части
-                    и Vue.js для разработки пользовательских интерфейсов.
-                </p>
-                <p class="text-mobile">
-                    Имею хорошее понимание принципов ООП и структур данных, опыт проектирования и разработки
-                    REST API, навыки работы с GitHub и Docker.
+                    и Vue.js для пользовательских интерфейсов.
                 </p>
                 <p class="text-mobile m-0">
-                    Активно расширяю свою технологическую базу, изучая новые фреймворки и инструменты,
+                    Имею хорошее понимание структур данных, принципов ООП и REST API.
+                    Также активно расширяю свою технологическую базу, изучая новые фреймворки и инструменты,
                     такие как Symfony.
                 </p>
             </div>
@@ -24,7 +28,7 @@
                 <div><span class="marker shad">Имя:</span> Владимир Дубинин</div>
                 <div><span class="marker shad">Специальность:</span> Fullstack</div>
                 <div><span class="marker shad">Основной стек:</span> Laravel & Vue.js</div>
-                <div><span class="marker shad">Стаж работы:</span> 4 года</div>
+                <div><span class="marker shad">Стаж работы:</span> <?=$stage?></div>
                 <div><span class="marker shad">Страна:</span> Россия</div>
                 <div><span class="marker shad">Город:</span> Ростов-на-Дону</div>
             </div>

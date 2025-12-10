@@ -1,3 +1,5 @@
+<?php require_once './php_interface/init.php'; ?>
+
 <?php require_once './parts/header.php'; ?>
 
 <?php require_once './include/preview2.0.php'; ?>
