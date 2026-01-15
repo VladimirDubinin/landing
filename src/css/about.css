@@ -72,6 +72,12 @@
 
 .dop-info ul li {
     position: relative;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.dop-info ul li:hover {
+    transform: scale(1.05);
 }
 
 .dop-info ul li span {
@@ -211,7 +217,7 @@
     }
 
     .dop-info .soft-skills ul li:nth-child(2)::before {
-        transform: rotateZ(-20deg) translate(-4px, 23.5px);
+        transform: rotateZ(-20deg) translate(-4px, 23.9px);
         width: 140px;
     }
 
@@ -227,7 +233,7 @@
         right: -75%;
     }
     .dop-info .soft-skills ul li:nth-child(4)::before {
-        transform: rotateZ(5deg) translate(0.5px, -7.5px);
+        transform: rotateZ(5deg) translate(0.5px, -7.2px);
         width: 160px;
     }
 
@@ -274,7 +280,7 @@
         left: -25%;
     }
     .dop-info .hard-skills ul li:nth-child(2)::before {
-        transform: rotateZ(15deg) translate(1.3px, 12.8px);
+        transform: rotateZ(15deg) translate(1.3px, 12.5px);
         width: 100px;
     }
 
@@ -282,7 +288,7 @@
         left: -50%;
     }
     .dop-info .hard-skills ul li:nth-child(3)::before {
-        transform: rotateZ(5deg) translate(-0.5px, 4.4px);
+        transform: rotateZ(5deg) translate(-1px, 3.9px);
         width: 100px;
     }
 
@@ -290,7 +296,7 @@
         left: -50%;
     }
     .dop-info .hard-skills ul li:nth-child(4)::before {
-        transform: rotateZ(-5deg) translate(-0.5px, -4.6px);
+        transform: rotateZ(-5deg) translate(0px, -4.9px);
         width: 100px;
     }
 
@@ -298,7 +304,7 @@
         left: -25%;
     }
     .dop-info .hard-skills ul li:nth-child(5)::before {
-        transform: rotateZ(-15deg) translate(1.3px, -13.2px);
+        transform: rotateZ(-15deg) translate(1.3px, -13.6px);
         width: 100px;
     }
 
@@ -330,7 +336,7 @@
         right: -60%;
     }
     .dop-info .soft-skills ul li:nth-child(3)::before {
-        transform: rotateZ(-5deg) translate(0.3px, 4.5px);
+        transform: rotateZ(-5deg) translate(0.3px, 4px);
         width: 100px;
     }
 
@@ -346,7 +352,7 @@
         right: -50%;
     }
     .dop-info .soft-skills ul li:nth-child(5)::before {
-        transform: rotateZ(15deg) translate(-1.4px, -13.1px);
+        transform: rotateZ(15deg) translate(-1.4px, -13.6px);
         width: 100px;
     }
 
@@ -357,6 +363,10 @@
         transform: rotateZ(30deg) translate(-6.1px, -22.8px);
         width: 90px;
     }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+
 }
 
 @media (min-width: 768px) {

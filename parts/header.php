@@ -6,7 +6,7 @@
     <meta name="robots" content="index, follow" />
     <title>Владимир Дубинин - Fullstack-разработчик</title>
     <meta name="title" content="Владимир Дубинин - Fullstack-разработчик">
-    <meta name="description" content="Fullstack-разработчик из Ростова-на-Дону с 4-х летним опытом коммерческой разработки веб-приложений на Laravel и VueJS.">
+    <meta name="description" content="Владимир Дубинин - Fullstack-разработчик из Ростова-на-Дону с 4-х летним опытом коммерческой разработки веб-приложений на Laravel и VueJS.">
     <meta name="keywords" content="laravel, vue, разработчик, программист, php, js, middle, fullstack, backend, веб-разработка, ro100v4anin, rostovchanin, ростовчанин, создание сайтов Ростов-на-Дону, Владимир Дубинин">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
