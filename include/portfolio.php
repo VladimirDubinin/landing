@@ -19,6 +19,47 @@
                     <div class="slider-wrapper">
                         <div class="project-slider swiper">
                             <div class="swiper-wrapper">
+                                <div class="swiper-slide no-p">
+                                    <a href="/src/images/denvaren/1.jpg" data-fancybox="gallery-ac">
+                                        <img class="project-img" src="/src/images/denvaren/1.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide no-p">
+                                    <a href="/src/images/denvaren/2.jpg" data-fancybox="gallery-ac">
+                                        <img class="project-img" src="/src/images/denvaren/2.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide no-p">
+                                    <a href="/src/images/denvaren/3.jpg" data-fancybox="gallery-ac">
+                                        <img class="project-img" src="/src/images/denvaren/3.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-desc">
+                        <h6 class="text-mobile">Телеграм-бот</h6>
+                        <p class="text-mobile">
+                            Мой пет-проект.
+                            Реализован с использованием библиотеки - <b>Laravel Telegraph</b>.
+                        </p>
+                        <p class="text-mobile">
+                            Бот позволяет добавить напоминание на важную для вас дату, например,
+                            профессиональный праздник, чтобы не забыть поздравить коллег, день рождения друга или родственника.
+                        </p>
+                        <p class="text-mobile">
+                            При добавлении напоминания есть возможность установить периодичность - однократно или каждый год, и описание события.
+                            За день до него бот пришлёт уведомление и сгенерирует вариант поздравления на основе введённого описания с помощью нейросети.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="project">
+                    <div class="slider-wrapper">
+                        <div class="project-slider swiper">
+                            <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <a href="/src/images/ac/2.jpg" data-fancybox="gallery-ac">
                                         <img class="project-img" src="/src/images/ac/2.jpg" alt="">

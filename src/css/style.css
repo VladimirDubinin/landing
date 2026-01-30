@@ -392,6 +392,11 @@ section#contacts .contacts-wrapper {
     aspect-ratio: .9;
 }
 
+.project-slider .swiper-slide.no-p {
+    padding: 0 !important;
+    background: transparent !important;
+}
+
 .project-slider img {
     width: 100%;
     object-fit: contain;

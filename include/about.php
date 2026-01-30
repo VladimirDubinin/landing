@@ -69,7 +69,7 @@
                     <p>Основной стек: Laravel, Vue.js, Bitrix.</p>
                 </div>
                 <div class="item-time">
-                    <div class="years">07.2021 - 12.2025</div>
+                    <div class="years">07.2021 - 01.2026</div>
                 </div>
             </div>
         </div>
