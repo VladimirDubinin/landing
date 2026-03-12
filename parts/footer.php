@@ -70,12 +70,8 @@
     </div>
 </footer>
 
-<? if (isset($_COOKIE['preloader'])) {
-    $fastBG = true;
-}?>
-
-<div class="preloader <?=isset($fastBG) ? 'fast' : ''?>">
-    <? if (!isset($fastBG)) { ?>
+<div class="preloader fast">
+    <? if (isset($bigBG)) { ?>
     <div class="stack" style="--stacks: 3;">
         <span style="--index: 0;">Владимир Дубинин</span>
     </div>
