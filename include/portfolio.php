@@ -19,38 +19,39 @@
                     <div class="slider-wrapper">
                         <div class="project-slider swiper">
                             <div class="swiper-wrapper">
-                                <div class="swiper-slide no-p">
-                                    <a href="/src/images/denvaren/1.jpg" data-fancybox="gallery-ac">
-                                        <img class="project-img" src="/src/images/denvaren/1.jpg" alt="">
+                                <div class="swiper-slide">
+                                    <a href="/src/images/ac/2_original.jpg" data-fancybox="gallery-ac">
+                                        <img class="project-img" src="/src/images/ac/2_preview.jpg" alt="">
                                     </a>
                                 </div>
-                                <div class="swiper-slide no-p">
-                                    <a href="/src/images/denvaren/2.jpg" data-fancybox="gallery-ac">
-                                        <img class="project-img" src="/src/images/denvaren/2.jpg" alt="">
+                                <div class="swiper-slide">
+                                    <a href="/src/images/ac/5_original.jpg" data-fancybox="gallery-ac">
+                                        <img class="project-img" src="/src/images/ac/5_preview.jpg" alt="">
                                     </a>
                                 </div>
-                                <div class="swiper-slide no-p">
-                                    <a href="/src/images/denvaren/3.jpg" data-fancybox="gallery-ac">
-                                        <img class="project-img" src="/src/images/denvaren/3.jpg" alt="">
+                                <div class="swiper-slide">
+                                    <a href="/src/images/ac/4_original.jpg" data-fancybox="gallery-ac">
+                                        <img class="project-img" src="/src/images/ac/4_preview.jpg" alt="">
                                     </a>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="project-desc">
-                        <h6 class="text-mobile">Телеграм-бот</h6>
+                        <h6 class="text-mobile">Academic Calendar</h6>
                         <p class="text-mobile">
-                            Мой пет-проект.
-                            Реализован с использованием библиотеки - <b>Laravel Telegraph</b>.
+                            Сервис для составления расписаний занятий в Gurnick Academy.
+                            Реализован по принципу SPA на <b>Laravel & Vue.js</b>.
                         </p>
-                        <p class="text-mobile">
-                            Бот позволяет добавить напоминание на важную для вас дату, например,
-                            профессиональный праздник, чтобы не забыть поздравить коллег, день рождения друга или родственника.
-                        </p>
-                        <p class="text-mobile">
-                            При добавлении напоминания есть возможность установить периодичность - однократно или каждый год, и описание события.
-                            За день до него бот пришлёт уведомление и сгенерирует вариант поздравления на основе введённого описания с помощью нейросети.
-                        </p>
+                        <p class="text-mobile">Мною было разработано:</p>
+                        <ul class="m-0">
+                            <li>синхронизация данных о группах и курсах с сервисом академии по API;</li>
+                            <li>составление расписаний на основе актуальных данных;</li>
+                            <li>функционал согласования расписаний;</li>
+                            <li>возможность авторизации через сервис академии с помощью JWT;</li>
+                            <li>система ролей и прав;</li>
+                            <li>чат с использованием библиотеки Laravel WebSockets;</li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -61,38 +62,75 @@
                         <div class="project-slider swiper">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <a href="/src/images/ac/2.jpg" data-fancybox="gallery-ac">
-                                        <img class="project-img" src="/src/images/ac/2.jpg" alt="">
+                                    <a href="/src/images/sudrf/1.jpg" data-fancybox="gallery-sudrf">
+                                        <img class="project-img" src="/src/images/sudrf/1.jpg" alt="">
                                     </a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <a href="/src/images/ac/5_original.jpg" data-fancybox="gallery-ac">
-                                        <img class="project-img" src="/src/images/ac/5_preview.jpg" alt="">
+                                    <a href="/src/images/sudrf/3.jpg" data-fancybox="gallery-sudrf">
+                                        <img class="project-img" src="/src/images/sudrf/3.jpg" alt="">
                                     </a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <a href="/src/images/ac/4.jpg" data-fancybox="gallery-ac">
-                                        <img class="project-img" src="/src/images/ac/4.jpg" alt="">
+                                    <a href="/src/images/sudrf/4.jpg" data-fancybox="gallery-sudrf">
+                                        <img class="project-img" src="/src/images/sudrf/4.jpg" alt="">
                                     </a>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="project-desc">
-                        <h6 class="text-mobile">Academic Calendar</h6>
+                        <h6 class="text-mobile">Такие дела</h6>
                         <p class="text-mobile">
-                            Сервис для составления расписаний занятий в Gurnick Academy.
-                            Стек проекта - <b>Laravel & Vue.js</b>.
+                            Сервис для отслеживания изменений по судебным делам.
+                            Разрабатывался по принципу SPA на <b>Laravel и Vue.js</b>.
                         </p>
-                        <p class="text-mobile">Особенности проекта:</p>
+                        <p class="text-mobile">В перечень моих задач входило:</p>
                         <ul class="m-0">
-                            <li>синхронизация данных о группах и курсах со сторонним сервисом по API;</li>
-                            <li>составление расписаний на основе актуальных данных;</li>
-                            <li>функционал согласования расписаний;</li>
-                            <li>система ролей и прав;</li>
-                            <li>возможность авторизации через сторонний сервис с помощью JWT;</li>
-                            <li>для программирования чата использовалась библиотека Laravel WebSockets;</li>
+                            <li>программирование личного кабинета, формы регистрации и авторизации;</li>
+                            <li>программирование модуля отслеживания дел - создание отслеживаний и просмотр найденных дел;</li>
+                            <li>создание механизма регулярного поиска новых дел по указанным параметрам;</li>
+                            <li>создание страницы сохранённых дел и карточки дела;</li>
                         </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="project">
+                    <div class="slider-wrapper">
+                        <div class="project-slider swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="/src/images/lbtd/1.jpg" data-fancybox="gallery-lbtd">
+                                        <img class="project-img" src="/src/images/lbtd/1.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="/src/images/lbtd/2.jpg" data-fancybox="gallery-lbtd">
+                                        <img class="project-img" src="/src/images/lbtd/2.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="/src/images/lbtd/3.jpg" data-fancybox="gallery-lbtd">
+                                        <img class="project-img" src="/src/images/lbtd/3.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-desc">
+                        <h6 class="text-mobile">Парсер цен</h6>
+                        <p class="text-mobile">
+                            Веб-приложение осуществляет мониторинг цен на электронику и на разных сайтах.
+                            При разработке использовался стек <b>Laravel & Vue.js</b>. Реализован сайт по принципу SPA.
+                        </p>
+                        <p class="text-mobile">
+                            В процессе разработки была создана кастомная административная панель сайта, которая позволяет вести базу данных товаров,
+                            сайтов и товаров для управления парсингом и просматривать список отчётов.
+                            Разработан механизм обхода защиты сайтов от парсинга с помощью библиотеки Headless Chrome.
+                            Парсинг осуществляется посредством очередей с использованием Redis.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -139,76 +177,38 @@
                     <div class="slider-wrapper">
                         <div class="project-slider swiper">
                             <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <a href="/src/images/lbtd/1.jpg" data-fancybox="gallery-lbtd">
-                                        <img class="project-img" src="/src/images/lbtd/1.jpg" alt="">
+                                <div class="swiper-slide no-p">
+                                    <a href="/src/images/denvaren/1.jpg" data-fancybox="gallery-ac">
+                                        <img class="project-img" src="/src/images/denvaren/1.jpg" alt="">
                                     </a>
                                 </div>
-                                <div class="swiper-slide">
-                                    <a href="/src/images/lbtd/2.jpg" data-fancybox="gallery-lbtd">
-                                        <img class="project-img" src="/src/images/lbtd/2.jpg" alt="">
+                                <div class="swiper-slide no-p">
+                                    <a href="/src/images/denvaren/2.jpg" data-fancybox="gallery-ac">
+                                        <img class="project-img" src="/src/images/denvaren/2.jpg" alt="">
                                     </a>
                                 </div>
-                                <div class="swiper-slide">
-                                    <a href="/src/images/lbtd/3.jpg" data-fancybox="gallery-lbtd">
-                                        <img class="project-img" src="/src/images/lbtd/3.jpg" alt="">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-desc">
-                        <h6 class="text-mobile">Парсер цен</h6>
-                        <p class="text-mobile">
-                            Веб-приложение осуществляет мониторинг цен на электронику и бытовую технику на разных сайтах.
-                            При разработке использовался стек <b>Laravel & Vue.js</b>. Реализован сайт по принципу SPA.
-                        </p>
-                        <p class="text-mobile">
-                            В процессе разработки была создана кастомная административная панель сайта, которая позволяет вести базу данных товаров,
-                            сайтов и регионов для управления парсингом и просматривать список отчётов.
-                            Разработан механизм обхода защиты сайтов от парсинга с помощью библиотеки Headless Chrome и
-                            реализована возможность выгрузки отчетов в файл Excel.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="swiper-slide">
-                <div class="project">
-                    <div class="slider-wrapper">
-                        <div class="project-slider swiper">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <a href="/src/images/sudrf/1.jpg" data-fancybox="gallery-sudrf">
-                                        <img class="project-img" src="/src/images/sudrf/1.jpg" alt="">
-                                    </a>
-                                </div>
-                                <div class="swiper-slide">
-                                    <a href="/src/images/sudrf/3.jpg" data-fancybox="gallery-sudrf">
-                                        <img class="project-img" src="/src/images/sudrf/3.jpg" alt="">
-                                    </a>
-                                </div>
-                                <div class="swiper-slide">
-                                    <a href="/src/images/sudrf/4.jpg" data-fancybox="gallery-sudrf">
-                                        <img class="project-img" src="/src/images/sudrf/4.jpg" alt="">
+                                <div class="swiper-slide no-p">
+                                    <a href="/src/images/denvaren/3.jpg" data-fancybox="gallery-ac">
+                                        <img class="project-img" src="/src/images/denvaren/3.jpg" alt="">
                                     </a>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="project-desc">
-                        <h6 class="text-mobile">Такие дела</h6>
+                        <h6 class="text-mobile">Телеграм-бот</h6>
                         <p class="text-mobile">
-                            Сервис для отслеживания изменений по судебным делам.
-                            Разрабатывался в команде с другими программистами на <b>Laravel и Vue.js</b>.
+                            Мой пет-проект.
+                            Реализован с использованием библиотеки - <b>Laravel Telegraph</b>.
                         </p>
-                        <p class="text-mobile">В перечень моих задач входило:</p>
-                        <ul class="m-0">
-                            <li>программирование личного кабинета, формы регистрации и авторизации;</li>
-                            <li>программирование модуля отслеживания дел - создание отслеживаний и просмотр найденных дел;</li>
-                            <li>создание механизма регулярного поиска новых дел по указанным параметрам;</li>
-                            <li>создание траницы сохранённых дел и карточки дела;</li>
-                        </ul>
+                        <p class="text-mobile">
+                            Бот позволяет добавить напоминание на важную для вас дату, например,
+                            профессиональный праздник, чтобы не забыть поздравить коллег, день рождения друга или родственника.
+                        </p>
+                        <p class="text-mobile">
+                            При добавлении напоминания есть возможность установить периодичность - однократно или каждый год, и описание события.
+                            За день до него бот пришлёт уведомление и сгенерирует вариант поздравления на основе введённого описания с помощью нейросети.
+                        </p>
                     </div>
                 </div>
             </div>
