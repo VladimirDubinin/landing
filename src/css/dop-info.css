@@ -36,7 +36,7 @@
 }
 
 .dop-info {
-    margin-bottom: -2rem;
+    margin-bottom: -3rem;
 }
 
 .dop-info .hard-skills ul {
@@ -317,6 +317,10 @@
 }
 
 @media (max-width: 576px) {
+    .dop-info {
+        margin-bottom: -4rem;
+    }
+
     .dop-info .brain-bg {
         background-size: 50%;
         gap: 1rem;
@@ -328,6 +332,7 @@
 
     .dop-info ul li span {
         font-size: .75rem;
+        letter-spacing: -1px;
     }
 
     .dop-info ul li .icon-24 {
@@ -340,23 +345,23 @@
     }
 
     .dop-info .hard-skills ul li:nth-child(2) {
-        left: -20%;
+        left: -25%;
     }
 
     .dop-info .hard-skills ul li:nth-child(3) {
-        left: -30%;
+        left: -35%;
     }
 
     .dop-info .hard-skills ul li:nth-child(4) {
-        left: -30%;
+        left: -35%;
     }
 
     .dop-info .hard-skills ul li:nth-child(5) {
-        left: -20%;
+        left: -25%;
     }
 
     .dop-info .hard-skills ul li:nth-child(6) {
-        left: -2.5%;
+        left: -5%;
     }
 
     .dop-info .soft-skills ul li:nth-child(1) {
@@ -364,19 +369,19 @@
     }
 
     .dop-info .soft-skills ul li:nth-child(2) {
-        right: -17.5%;
+        right: -20%;
     }
 
     .dop-info .soft-skills ul li:nth-child(3) {
-        right: -27.5%;
+        right: -30%;
     }
 
     .dop-info .soft-skills ul li:nth-child(4) {
-        right: -27.5%;
+        right: -30%;
     }
 
     .dop-info .soft-skills ul li:nth-child(5) {
-        right: -17.5%;
+        right: -20%;
     }
 
     .dop-info .soft-skills ul li:nth-child(6) {
