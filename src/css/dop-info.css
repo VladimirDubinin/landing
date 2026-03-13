@@ -87,7 +87,6 @@
     }
 }
 
-
 @media (min-width: 2400px) {
     .dop-info .hard-skills ul li:nth-child(1) {
         left: -60%;
@@ -138,7 +137,7 @@
     }
 }
 
-@media (min-width: 992px) and (max-width: 2400px) {
+@media (min-width: 992px) {
     .dop-info li::before {
         height: 2px;
         bottom: -5.5px;
@@ -148,7 +147,9 @@
         border-bottom: 2px solid white;
         font-weight: bolder;
     }
+}
 
+@media (min-width: 992px) and (max-width: 2400px) {
     .dop-info .hard-skills ul li:nth-child(1) {
         left: -55%;
     }
