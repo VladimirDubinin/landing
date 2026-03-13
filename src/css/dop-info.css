@@ -35,6 +35,10 @@
     padding: 3rem 0;
 }
 
+.dop-info {
+    margin-bottom: -2rem;
+}
+
 .dop-info .hard-skills ul {
     align-items: end;
 }
@@ -313,6 +317,10 @@
         gap: 1rem;
     }
 
+    .dop-info ul {
+        padding: 3.5rem 0;
+    }
+
     .dop-info ul li span {
         font-size: .75rem;
     }
@@ -323,27 +331,27 @@
     }
 
     .dop-info .hard-skills ul li:nth-child(1) {
-        left: 0;
+        left: -2.5%;
     }
 
     .dop-info .hard-skills ul li:nth-child(2) {
-        left: -17.5%;
+        left: -20%;
     }
 
     .dop-info .hard-skills ul li:nth-child(3) {
-        left: -27.5%;
+        left: -30%;
     }
 
     .dop-info .hard-skills ul li:nth-child(4) {
-        left: -27.5%;
+        left: -30%;
     }
 
     .dop-info .hard-skills ul li:nth-child(5) {
-        left: -15%;
+        left: -20%;
     }
 
     .dop-info .hard-skills ul li:nth-child(6) {
-        left: 0;
+        left: -2.5%;
     }
 
     .dop-info .soft-skills ul li:nth-child(1) {
