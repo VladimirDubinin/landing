@@ -62,18 +62,18 @@
                         <div class="project-slider swiper">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <a href="/src/images/sudrf/1.jpg" data-fancybox="gallery-sudrf">
-                                        <img class="project-img" src="/src/images/sudrf/1.jpg" alt="">
+                                    <a href="/src/images/sudrf/1_original.jpg" data-fancybox="gallery-sudrf">
+                                        <img class="project-img" src="/src/images/sudrf/1_preview.jpg" alt="">
                                     </a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <a href="/src/images/sudrf/3.jpg" data-fancybox="gallery-sudrf">
-                                        <img class="project-img" src="/src/images/sudrf/3.jpg" alt="">
+                                    <a href="/src/images/sudrf/3_original.jpg" data-fancybox="gallery-sudrf">
+                                        <img class="project-img" src="/src/images/sudrf/3_preview.jpg" alt="">
                                     </a>
                                 </div>
                                 <div class="swiper-slide">
-                                    <a href="/src/images/sudrf/4.jpg" data-fancybox="gallery-sudrf">
-                                        <img class="project-img" src="/src/images/sudrf/4.jpg" alt="">
+                                    <a href="/src/images/sudrf/4_original.jpg" data-fancybox="gallery-sudrf">
+                                        <img class="project-img" src="/src/images/sudrf/4_preview.jpg" alt="">
                                     </a>
                                 </div>
                             </div>
@@ -83,7 +83,7 @@
                         <h6 class="text-mobile">Такие дела</h6>
                         <p class="text-mobile">
                             Сервис для отслеживания изменений по судебным делам.
-                            Разрабатывался по принципу SPA на <b>Laravel и Vue.js</b>.
+                            Основной стек проекта - <b>Laravel и Vue.js</b> с использованием <b>Nuxt</b>.
                         </p>
                         <p class="text-mobile">В перечень моих задач входило:</p>
                         <ul class="m-0">
@@ -123,7 +123,7 @@
                         <h6 class="text-mobile">Парсер цен</h6>
                         <p class="text-mobile">
                             Веб-приложение осуществляет мониторинг цен на электронику и на разных сайтах.
-                            При разработке использовался стек <b>Laravel & Vue.js</b>. Реализован сайт по принципу SPA.
+                            При разработке использовался стек <b>Laravel & Vue.js</b>.
                         </p>
                         <p class="text-mobile">
                             В процессе разработки была создана кастомная административная панель сайта, которая позволяет вести базу данных товаров,
@@ -160,11 +160,11 @@
                     </div>
                     <div class="project-desc">
                         <h6 class="text-mobile">Комплекс «Федерация»</h6>
-                        <p class="text-mobile">Одностраничный сайт жилого комплекса «Федерация» в г. Самара.</p>
+                        <p class="text-mobile">Сайт жилого комплекса «Федерация» в г. Самара разработан на Bitrix.</p>
                         <p class="text-mobile">В процессе разработки этого проекта были выполнены следующие задачи:</p>
                         <ul class="m-0">
                             <li>адаптивная вёрстка сайта по макету;</li>
-                            <li>программирование клиентской части - анимация появдения блоков, слайдеры, модальные формы обратной связи;</li>
+                            <li>программирование клиентской части - анимация появления блоков, слайдеры, модальные формы обратной связи;</li>
                             <li>импорт данных о квартирах по API из сервиса Profitbase;</li>
                             <li>программирование модуля выбора этажа и квартиры;</li>
                         </ul>
@@ -199,15 +199,15 @@
                         <h6 class="text-mobile">Телеграм-бот</h6>
                         <p class="text-mobile">
                             Мой пет-проект.
-                            Реализован с использованием библиотеки - <b>Laravel Telegraph</b>.
+                            Реализован с использованием библиотеки <b>Laravel Telegraph</b>.
                         </p>
                         <p class="text-mobile">
-                            Бот позволяет добавить напоминание на важную для вас дату, например,
-                            профессиональный праздник, чтобы не забыть поздравить коллег, день рождения друга или родственника.
+                            Бот позволяет добавить напоминание на важную дату, например,
+                            праздник или день рождения.
                         </p>
                         <p class="text-mobile">
                             При добавлении напоминания есть возможность установить периодичность - однократно или каждый год, и описание события.
-                            За день до него бот пришлёт уведомление и сгенерирует вариант поздравления на основе введённого описания с помощью нейросети.
+                            За день до него бот пришлёт уведомление и сгенерирует вариант поздравления на основе введённого описания с помощью нейросети DeepSeek.
                         </p>
                     </div>
                 </div>
