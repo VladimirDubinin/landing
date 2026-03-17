@@ -1,0 +1,47 @@
+.dop-info2 {
+    margin-top: 5rem;
+}
+
+.dop-info2 .header {
+    margin-bottom: 1rem;
+}
+
+.dop-info2 .skill-list {
+    display: grid;
+    gap: 2rem 4rem;
+    grid-template-columns: 1fr 1fr;
+}
+
+.dop-info2 .skill-list .skill {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: .5rem;
+}
+
+.dop-info2 .skill-name span {
+    cursor: pointer;
+    display: inline-block;
+    transition: .2s;
+}
+
+.dop-info2 .skill-name span:hover {
+    transform: scale(1.05) translate(2%, -4%);
+}
+
+.dop-info2 .skill-list .skill .skill-scale {
+    height: 2px;
+    background-color: black;
+    width: 100%;
+}
+
+.skill-scale .skill-level {
+    background-color: var(--color-primary);
+    height: 2px;
+}
+
+@media (max-width: 576px) {
+    .dop-info2 .skill-list {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+}
