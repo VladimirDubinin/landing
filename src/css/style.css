@@ -3,7 +3,7 @@
     --color-secondary: #03acf4;
     --color-bg: #161822;
     --color-bg-old: #1D1D24;
-    --gradient: linear-gradient(90deg, rgb(22, 24, 34) 0%, rgb(37, 42, 55) 40%, rgb(37, 42, 55) 60%, rgb(22, 24, 34) 100%) !important;
+    --gradient: linear-gradient(90deg, rgb(22, 24, 34) 0%, rgb(37, 42, 55) 50%, rgb(22, 24, 34) 100%) !important;
 }
 
 html {
